@@ -1,6 +1,6 @@
 # Guides
 
-This is a repo of guides, written on different occasions or about repetitive tasks
+This is a repo of guides, written on different occasions or about some repetitive tasks.
 
 # Contents
 
