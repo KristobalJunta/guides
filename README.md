@@ -9,4 +9,5 @@ This is a repo of guides, written on different occasions or about some repetitiv
 * [Screen](screen-usage.md)
 * [Swapfile](swapfile.md)
 * [Google Drive для Linux](google-drive-linux.md)
+* [ffmpeg для записи экрана](ffmpeg-screencap.md)
 
