@@ -8,4 +8,5 @@ This is a repo of guides, written on different occasions or about some repetitiv
 * [SSH key login](ssh-key-login.md)
 * [Screen](screen-usage.md)
 * [Swapfile](swapfile.md)
+* [Google Drive для Linux](google-drive-linux.md)
 
