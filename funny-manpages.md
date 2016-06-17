@@ -1,0 +1,22 @@
+# Linux Funny Manpages
+
+- baby
+- celibacy
+- condom
+- date
+- echo
+- flame
+- flog
+- gong
+- grope, egrope, fgrope
+- party
+- rescrog
+- rm
+- rtfm
+- tm
+- uubp
+- woman (undocumented)
+- xkill
+- xlart
+- sex
+- strfry
