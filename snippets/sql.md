@@ -27,3 +27,22 @@ FROM
 GROUP BY
     table_schema;
 ```
+
+## Select, delete or filter rows with duplicate column value
+
+- http://www.mysqltutorial.org/mysql-delete-duplicate-rows/
+- https://stackoverflow.com/questions/2630440/how-to-delete-duplicates-on-a-mysql-table
+- https://stackoverflow.com/questions/13151928/show-first-instance-of-records-with-duplicate-values-in-colum
+
+```sql
+SELECT a.*
+FROM gallery_images a
+INNER JOIN
+(
+    SELECT gallery_ID, MIN(id) id
+    FROM gallery_images
+    GROUP BY gallery_ID
+) b
+ON a.gallery_ID = b.gallery_ID
+AND a.id = b.id;
+```
