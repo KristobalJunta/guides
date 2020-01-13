@@ -21,3 +21,34 @@ def human_readable(val):
 
     return val
 ```
+
+## Chunk
+
+Split into N chunks
+
+```python
+def chunks(lst, n):
+    """Return list of n successive chunks from lst."""
+    import math
+    chunk_size = math.ceil(len(lst) / n)
+    res = []
+    for i in range(0, len(lst), chunk_size):
+        res.append(lst[i:i + chunk_size])
+    return res
+```
+
+Split into N-sized chunks
+
+```python
+def chunks(lst, n):
+    """Yield successive n-sized chunks from lst."""
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
+
+def chunks(lst, n):
+    """Return list of successive n-sized chunks from lst."""
+    res = []
+    for i in range(0, len(lst), n):
+        res.append(lst[i:i + n])
+    return res
+```
