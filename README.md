@@ -1,13 +1,3 @@
-# Guides
+# Notes
 
-This is a repo of guides, written on different occasions or about some repetitive tasks.
-
-# Contents
-
-* [Push to deploy](push-to-deploy.md)
-* [SSH key login](ssh-key-login.md)
-* [Screen](screen-usage.md)
-* [Swapfile](swapfile.md)
-* [Google Drive для Linux](google-drive-linux.md)
-* [ffmpeg для записи экрана](ffmpeg-screencap.md)
-
+This repo contains my notes, how-tos and snippets.
