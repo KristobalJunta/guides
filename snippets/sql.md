@@ -46,3 +46,15 @@ INNER JOIN
 ON a.gallery_ID = b.gallery_ID
 AND a.id = b.id;
 ```
+
+Delete keeping the highest id:
+
+```sql
+DELETE t1 FROM contacts t1
+INNER JOIN contacts t2
+WHERE
+    t1.id < t2.id AND
+    t1.email = t2.email;
+```
+
+Replace `t1.id < t2.id` with `t1.id > t2.id` to keep rows with lowest id.
