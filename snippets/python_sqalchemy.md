@@ -43,3 +43,11 @@ items = (
   .all()
 )
 ```
+
+## Core transactions
+
+https://docs.sqlalchemy.org/en/13/core/connections.html#using-transactions
+
+## Mixins
+
+https://docs.sqlalchemy.org/en/13/orm/extensions/declarative/mixins.html
